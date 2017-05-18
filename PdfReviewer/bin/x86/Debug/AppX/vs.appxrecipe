@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5B9B8A9599C1CA018D57FF90560F583BB604FF857E9D7DE5F41264F948FDE6AB</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>BFF049E45471439AB544CDCB075914586C5C40CD5C24BC89FFDD1AF4AF192D6E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>224a3c91-9f59-43f7-ae6b-4e574738ec4c_1.0.0.0_x86__7npqabcqw1kgm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>224a3c91-9f59-43f7-ae6b-4e574738ec4c_7npqabcqw1kgm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>224a3c91-9f59-43f7-ae6b-4e574738ec4c</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T08:29:52.861</Modified>
+      <Modified>2017-05-18T10:26:17.450</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\PdfReviewer.exe">
       <PackagePath>entrypoint\PdfReviewer.exe</PackagePath>
-      <Modified>2017-05-18T08:29:52.097</Modified>
+      <Modified>2017-05-18T10:26:16.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adam\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -552,20 +552,20 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\PdfReviewer.xr.xml">
       <PackagePath>PdfReviewer.xr.xml</PackagePath>
-      <Modified>2017-05-18T07:29:41.616</Modified>
+      <Modified>2017-05-18T10:25:36.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-04-11T00:50:42.230</Modified>
+      <Modified>2017-04-11T00:50:01.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T08:29:52.584</Modified>
+      <Modified>2017-05-18T10:26:17.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\Core\PdfReviewer.exe">
       <PackagePath>PdfReviewer.exe</PackagePath>
-      <Modified>2017-05-18T08:29:52.854</Modified>
+      <Modified>2017-05-18T10:26:17.441</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

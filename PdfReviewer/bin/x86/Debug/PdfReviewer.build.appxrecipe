@@ -416,7 +416,7 @@
     <AppxPackagedFile Include="C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\PdfReviewer.xr.xml">
       <PackagePath>PdfReviewer.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\resources.pri">

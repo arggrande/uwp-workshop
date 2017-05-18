@@ -7,7 +7,41 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar IsOpen="True" IsSticky="True" RequestedTheme="Dark" Background="Black">
+            <AppBarButton Icon="OpenFile" Label="Open" Click="OnOpenFileClick"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+    
+    <Grid x:Name="mainGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
+        <TextBlock Margin="10,0" x:Name="titleLabel" FontWeight="Bold" Text="Welcome to Pdf Reviewer for Windows"/>
+        <TextBlock Margin="10,0" x:Name="subtitleLabel" Grid.Row="1" Text="Tap 'Open' from the toolbar to load a PDF document to view all pages. Tap a document page to make annotation."/>
+
+        <Border Margin="10" BorderThickness="1" BorderBrush="DarkGray" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2">
+            <GridView ItemClick="OnDocumentClick" IsItemClickEnabled="True" Margin="10" DataContext="{Binding}" ItemsSource="{Binding AllDocuments}">
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1" BorderBrush="DarkGray" Width="200">
+                            <Grid Margin="5">
+                                <Image Source="{Binding PageImage}" Stretch="Uniform"/>
+                                <Image Source="{Binding AnnotationImage}" Stretch="Uniform"/>
+                                <Border RequestedTheme="Dark" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="30" Height="30" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Text="{Binding PageNumber}"/>
+                                </Border>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+                
+            </GridView>
+        </Border>
+        
+        <ProgressBar Foreground="#FFCE0809" Visibility="Collapsed" Margin="20" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Stretch" x:Name="loadingProgress"/>
     </Grid>
 </Page>

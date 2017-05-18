@@ -210,3 +210,8 @@ C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\qualifiers.txt
 C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\qualifiers.txt.intermediate
 C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\ProjectArchitectures.txt
+C:\dev\sandbox\PdfReviewer\PdfReviewer\bin\x86\Debug\ReviewPage.xbf
+C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\ReviewPage.g.i.cs
+C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\ReviewPage.g.cs
+C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\ReviewPage.xaml
+C:\dev\sandbox\PdfReviewer\PdfReviewer\obj\x86\Debug\ReviewPage.xbf
