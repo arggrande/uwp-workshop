@@ -33,4 +33,29 @@
         </Border>
         
     </Grid>
+    <VisualStateManager.VisualStateGroups>
+        <VisualStateGroup>
+            <VisualState x:Name="WideLayout">
+                <VisualState.StateTriggers>
+                    <AdaptiveTrigger MinWindowWidth="900" />
+                </VisualState.StateTriggers>
+                <VisualState.Setters>
+                    <Setter Target="mainGrid.Margin" Value="40" />
+                    <Setter Target="titleLabel.Style" Value="{ThemeResource TitleTextBlockStyle}" />
+                    <Setter Target="subtitleLabel.Style" Value="{ThemeResource SubtitleTextBlockStyle}" />
+                </VisualState.Setters>
+            </VisualState>
+
+            <VisualState x:Name="NarrowLayout">
+                <VisualState.StateTriggers>
+                    <AdaptiveTrigger MinWindowWidth="0" />
+                </VisualState.StateTriggers>
+                <VisualState.Setters>
+                    <Setter Target="mainGrid.Margin" Value="10" />
+                    <Setter Target="titleLabel.Style" Value="{ThemeResource SubtitleTextBlockStyle}" />
+                    <Setter Target="subtitleLabel.Style" Value="{ThemeResource BodyTextBlockStyle}" />
+                </VisualState.Setters>
+            </VisualState>
+        </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
 </Page>
